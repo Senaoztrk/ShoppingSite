@@ -1,0 +1,49 @@
+/* ProductDetail.module.css */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Sayfanın yüksekliğini tam olarak kaplar */
+    background-color: #e3d3d3; /* Sayfanın arka plan rengi */
+    margin: 0; /* Sayfanın kenar boşluklarını sıfırlar */
+  }
+  
+  .box {
+    background-color: #fff; /* Kutu arka plan rengi */
+    padding: 20px;
+    border-radius: 15px; /* Oval köşeler için */
+    width: 400px; /* Kutu genişliği */
+    max-width: 90%; /* Kutu genişliği ekranın %90'ını geçmesin */
+    max-height: 90%; /* Kutu yüksekliği ekranın %90'ını geçmesin */
+    overflow: auto; /* İçerik kutuyu aşarsa kaydırma çubuğu ekler */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Gölge efekti */
+    text-align: center; /* Metin ortalanması */
+  }
+  .productTitle {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .productPrice {
+    color: green;
+    font-size: 18px;
+  }
+  
+  .productDescription {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  .addToCartButton {
+    padding: 10px 20px;
+    background-color: #0070f3;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .addToCartButton:hover {
+    background-color: #005bb5;
+  }
+  

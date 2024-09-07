@@ -1,0 +1,21 @@
+.container {
+    padding: 1rem;
+  }
+  
+  .productTable {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffff;
+  }
+  
+  .productTable th,
+  .productTable td {
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+    text-align: left;
+  }
+  
+  .productTable th {
+    background-color: #f4f4f4;
+  }
+  

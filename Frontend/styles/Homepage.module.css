@@ -1,0 +1,62 @@
+.container {
+    display: flex;
+  }
+  
+  .sidebar {
+    width: 250px;
+    background-color: #f4f4f4;
+    padding: 1rem;
+    border-right: 1px solid #ddd;
+  }
+  
+  .sidebar h2 {
+    margin-top: 0;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    cursor: pointer;
+    padding: 0.5rem;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .sidebar li:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .mainContent {
+    flex: 1;
+    padding: 1rem;
+  }
+  
+  .productList {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+  }
+  
+  .productItem {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 4px;
+    background-color: #fff;
+  }
+  
+  .addToCartButton {
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    border: none;
+    background-color: #0070f3;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .addToCartButton:hover {
+    background-color: #005bb5;
+  }
+  

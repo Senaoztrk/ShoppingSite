@@ -1,0 +1,57 @@
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 1rem;
+  background-color: #ffffff; /* Beyaz arka plan */
+  border-radius: 8px; /* Köşeleri yuvarlat */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Hafif gölge */
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 24px; /* Başlık boyutu */
+}
+
+.error {
+  color: red;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form div {
+  margin-bottom: 1rem;
+}
+
+.form label {
+  margin-bottom: 0.5rem;
+  display: block;
+  font-weight: bold; /* Etiketlerin kalın yazı stili */
+  font-weight: 100;
+}
+
+.form input {
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 100%; /* Genişliği doldur */
+}
+
+.form button {
+  padding: 0.5rem;
+  border: none;
+  background-color: #0070f3; /* Mavi arka plan */
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px; /* Buton yazı boyutu */
+}
+
+.form button:hover {
+  background-color: #005bb5; /* Hover rengi */
+}
