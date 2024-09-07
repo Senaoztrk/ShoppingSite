@@ -1,6 +1,6 @@
-# E-commerce Application
+# Shopping Site Application
 
-This project is an E-commerce application created during my 1-month internship. It includes user and admin interfaces, allowing users to browse products, add them to the cart, and manage product inventories for admins.
+This project is an Shopping Site application created during my 1-month internship. It includes user and admin interfaces, allowing users to browse products, add them to the cart, and manage product inventories for admins.
 
 ## Table of Contents
 - [Features](#features)
